@@ -70,3 +70,8 @@ CGO_ENABLED=$(CGO_ENABLED) $(GO) \\
 test -test.v --run FunctionalTest \\
 --cover
 
+functest: 
+CGO_ENABLED=$(CGO_ENABLED) $(GO) \\
+test -test.v --run FunctionalTest \\
+--cover
+
