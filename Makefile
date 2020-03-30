@@ -66,7 +66,18 @@ unittest:
 	test --run UnitTest -v
 
 functest: 
+<<<<<<< HEAD
 	CGO_ENABLED=$(CGO_ENABLED) $(GO) \
 	test -test.v --run FunctionalTest \
 	--cover
+=======
+CGO_ENABLED=$(CGO_ENABLED) $(GO) \\
+test -test.v --run FunctionalTest \\
+--cover
+
+functest: 
+CGO_ENABLED=$(CGO_ENABLED) $(GO) \\
+test -test.v --run FunctionalTest \\
+--cover
+>>>>>>> cd3f690302ff00243413e123e29d6ca7603e45ce
 

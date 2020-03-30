@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 buildPack: go
 pipelineConfig:
   pipelines:
@@ -8,3 +9,5 @@ pipelineConfig:
       promote:
         steps:
         - command: ADDRESS=`jx get preview --current 2>&1` make functest
+=======
+>>>>>>> cd3f690302ff00243413e123e29d6ca7603e45ce
